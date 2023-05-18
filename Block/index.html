@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo de productos</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container-tittle">Catalogo de Productos
+    </div>
+    
+
+    <main>
+        <div class="container-img">
+            <img src="img/perfume1.webp" alt="imagen-producto">
+        </div>
+        <div class="container-info-product">
+            <div class="container-price">
+                <span>$12.00</span>
+                <i class="fa-regular fa-chevron-right"></i>
+            </div>
+            <div class="container-details-product">
+                <div class="form-group">
+                    <label for="colour">Color</label>
+                    <select name="colour" id="colour">
+                        <option disabled selected value="">Escoge una opcion</option>
+                        <option value="rojo">rojo</option>
+                        <option value="blanco">blanco</option>
+                        <option value="beige">beige</option>
+                    </select>
+                </div>
+
+                <button class="btn-clean">Limpiar</button>
+
+            </div>
+
+            <div class="container-add-cart">
+                <div class="container-quantity">
+                    <input type="number" placeholder="1" value="1" min="1" class="input-quantity"/>
+                    <div class="btn-increment-decrement">
+                        <i class="fa-solid fa-chevron-up" id="increment"></i>
+                        <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                    </div>
+                </div>
+                <button class="btn-add-to-cart">
+                    <i class="fa-sharp fa-solid fa-plus"></i>Añadir al carrito
+                </button>
+            </div>
+            <div class="container-description">
+                <div class="tittle-description">
+                    <h4>Descripcion</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-description">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla doloribus consequuntur commodi voluptates fugiat nam voluptatem itaque voluptas temporibus doloremque dolorem aut quaerat deleniti saepe, adipisci necessitatibus fugit id blanditiis!</p>
+                </div>
+            </div>
+            <div class="container-additional-information">
+                <div class="tittle-additonial-informal">
+                    <h4>Informacion adicionnal</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-additional-information hidden">
+                    <p>--------------</p>
+                </div>
+            </div>
+
+            <div class="container-reviews">
+                <div class="tittle-reviews">
+                    <h4>Reseñas</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-reviews hidden">
+                    <p>--------------</p>
+                </div>
+            </div>
+
+            <div class="container-social">
+                <span>Compartir</span>
+                <div class="container-button-social">
+                    <a href="#">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>        
+  
+    </main>
+
+    <section class="container-related-products">
+        <h2>Productos Relacionados</h2>
+        <div class="card-list-products">
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/perfume3.webp" alt="producto-1">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Bleu Signature 100ml-L'Bel</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$10.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/perfumes4.jpg" alt="producto-2">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Bleu Supreme 100ml-L'Bel</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$9.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/perfume5.webp" alt="producto-3">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Bleu Live Polo 100ml-L'Bel</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$7.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/perfume6.webp" alt="producto-1">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Bleu Adventure  100ml-L'Bel</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$8.00</div>
+                </div>
+            </div>
+        </div>
+        <!-- PRODUCTO2 -->
+        <div class="container-img" >
+            <img id="esika1" src="img/esika1.webp" width="500px" alt="imagen-producto">
+        </div>
+        <div class="container-info-product">
+            <div class="container-price">
+                <span>$12.00</span>
+                <i class="fa-regular fa-chevron-right"></i>
+            </div>
+            <div class="container-details-product">
+                <div class="form-group">
+                    <label for="colour">Color</label>
+                    <select name="colour" id="colour">
+                        <option disabled selected value="">Escoge una opcion</option>
+                        <option value="rojo">rojo</option>
+                        <option value="blanco">blanco</option>
+                        <option value="beige">beige</option>
+                    </select>
+                </div>
+
+                <button class="btn-clean">Limpiar</button>
+
+            </div>
+
+            <div class="container-add-cart">
+                <div class="container-quantity">
+                    <input type="number" placeholder="1" value="1" min="1" class="input-quantity"/>
+                    <div class="btn-increment-decrement">
+                        <i class="fa-solid fa-chevron-up" id="increment"></i>
+                        <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                    </div>
+                </div>
+                <button class="btn-add-to-cart">
+                    <i class="fa-sharp fa-solid fa-plus"></i>Añadir al carrito
+                </button>
+            </div>
+            <div class="container-description">
+                <div class="tittle-description">
+                    <h4>Descripcion</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-description">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla doloribus consequuntur commodi voluptates fugiat nam voluptatem itaque voluptas temporibus doloremque dolorem aut quaerat deleniti saepe, adipisci necessitatibus fugit id blanditiis!</p>
+                </div>
+            </div>
+            <div class="container-additional-information">
+                <div class="tittle-additonial-informal">
+                    <h4>Informacion adicionnal</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-additional-information hidden">
+                    <p>--------------</p>
+                </div>
+            </div>
+
+            <div class="container-reviews">
+                <div class="tittle-reviews">
+                    <h4>Reseñas</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-reviews hidden">
+                    <p>--------------</p>
+                </div>
+            </div>
+
+            <div class="container-social">
+                <span>Compartir</span>
+                <div class="container-button-social">
+                    <a href="#">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>        
+  
+    </main>
+
+    <section class="container-related-products">
+        <br><br><br>
+        <h2>Productos Relacionados</h2>
+        <div class="card-list-products">
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/esika2.jpg" alt="producto-1">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Ésika Salvaje 90ml</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$7.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/esika3.webp" alt="producto-2">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Ésika UNO 90ml</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$8.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/esika4.jpg" alt="producto-3">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Ésika Element 75ml</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$7.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/esika5.jpg" alt="producto-1">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Ésika Magnate Select 90ml</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$8.00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- OTROS Productos -->
+    <section class="container-related-products">
+        <br><br><br><br><br><br><br>
+        <h2>Otros Productos</h2>
+        <div class="card-list-products">
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/el otro1.jpg" alt="producto-1">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Dior Dune Pour Homme</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$10.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/el otro2.jpg" alt="producto-2">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Dior Higher</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$9.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/el otro3.jpg" alt="producto-3">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Dior Fahnrenheit</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$9.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/el otro4.jpg" alt="producto-1">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Dior Homme Intese</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$8.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/el otro5.jpg" alt="producto-1">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Phantom</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$10.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/el otro6.jpg" alt="producto-2">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Sauvage Parfum</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$9.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/el otro7.jpg" alt="producto-3">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Dangerous</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$7.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/el otro8.jpg" alt="producto-1">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Ultraviolet Man</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$8.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/el otro9.jpg" alt="producto-3">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>One Million Elixir</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$7.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/el otro10.jpg" alt="producto-1">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Invictus Platinum</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">$8.00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https.//kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
